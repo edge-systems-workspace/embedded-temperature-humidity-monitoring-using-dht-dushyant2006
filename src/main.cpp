@@ -14,7 +14,16 @@
 #include <DHT.h>
 
 // TODO 1:
-// Define the DHT data pin (Use digital pin 2)
+/**
+ * @file main.ino
+ * @brief Embedded Temperature and Humidity Monitoring using DHT11
+ * @author Dushyant
+ * @date 2026-02-17
+ *
+ * @details
+ * This program reads environmental data from the DHT11 sensor
+ * and displays temperature and humidity values on Serial Monitor.
+ */
 
 // TODO 2:
 // Define the DHT sensor type (DHT11)
