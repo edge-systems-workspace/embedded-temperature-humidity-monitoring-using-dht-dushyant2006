@@ -24,14 +24,15 @@
 
 void setup() {
 
+
     // TODO 4:
-    // Initialize Serial communication (9600 baud rate)
+    Serial.begin(9600);
 
     // TODO 5:
-    // Initialize the DHT sensor
+    dht.begin();
 
     // TODO 6:
-    // Print a system initialization message
+    Serial.println("DHT11 Temperature & Humidity Monitoring System Started...");
 }
 
 void loop() {
